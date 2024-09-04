@@ -10,7 +10,7 @@
     <H1>MOKEPON! 🔥💧🌱</H1>
     
     <section id="seleccionar-mascota">
-        <h2>Elige a tu mascota</h2>
+        <h2>Elige a tu mascota:</h2>
 
         <label for="hipodoge">Hipodoge</label>
         <input type="radio" name="mascota" id="hipodoge"/>
@@ -30,24 +30,14 @@
         <label for="pydos">Pydos</label>
         <input type="radio" name="mascota" id="pydos"/>
 
-        <!--
-        Hipodoge -> Agua
-        Capipepo -> Tierra
-        Ratigueya -> Fuego
-        Langostelvis -> Agua y Fuego
-        Tucapalma -> Agua y Tierra
-        Pydos -> Tierra y Fuego
-         -->
-        
-
         <button id="btn-mascota">Seleccionar</button>
     </section>
 
     <section id="seleccionar-ataque">
         <h2>Elige tu ataque:</h2>
 
-        <p>Tu mascota <span id="mascota-jugador"></span> tiene <span>3</span> vidas</p>
-        <p>La mascota <span id="mascota-enemigo"></span> del enemigo tiene <span>3</span> vidas</p>
+        <p>Tu mascota <span id="mascota-jugador"></span> tiene <span id="vidas-jugador">3</span> vidas</p>
+        <p>La mascota <span id="mascota-enemigo"></span> del enemigo tiene <span id="vidas-enemigo">3</span> vidas</p>
         <p>
             <button id="btn-fuego">Fuego 🔥</button>
             <button id="btn-agua">Agua 💧</button>
@@ -56,7 +46,6 @@
     </section>
     
     <section id="mensajes">
-        <p>Tu mascota ataco con FUEGO, la mascota del enemigo ataco con TIERRA - GANATES 👍</p>
     </section>
 
     <section id="reiniciar">
